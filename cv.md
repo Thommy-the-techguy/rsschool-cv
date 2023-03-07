@@ -1,32 +1,66 @@
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-// Name
-// Artsiom Chyzhyk
+# Name
+# Artsiom Chyzhyk
 
-// Contacts
-// TEL: +375 33 392 49 51
-// E-MAIL: chizhik.artem@yandex.by
+# Contacts
+# TEL: +375 33 392 49 51
+# E-MAIL: chizhik.artem@yandex.by
 
-// About Me
-// Goal: Have a big will to find an interesting, well paid job in IT sphere with perspective of a career development.
-// Strong sides: I usually get along with people, persistent, hard-working.
-// Job exp.: none, but I'm eager to learn and open new horizons for myself, very interested in programming and trying my best to succeed in my journey 
-// to once become an employee in a perspective company.
+# About Me
+# Goal: Have a big will to find an interesting, well paid job in IT sphere with perspective of a career development.
+# Strong sides: I usually get along with people, persistent, hard-working.
+# Job exp.: none, but I'm eager to learn and open new horizons for myself, very interested in programming and trying my best to succeed in my journey 
+# to once become an employee in a perspective company.
 
-// Skills
-// Programming languages: C++, C#, Python, JavaScript (basics), Java SE.
-// Frameworks: .NET, Node.js (newbie).
-// Version control systems: git (newbie).
-// Dev. Tools: VS Code, MS VisualStudio, JetBrains PyCharm, JetBrains IntelliJ IDEA, Android Studio.
+# Skills
+# Programming languages: C++, C#, Python, JavaScript (basics), Java SE.
+# Frameworks: .NET, Node.js (newbie).
+# Version control systems: git (newbie).
+# Dev. Tools: VS Code, MS VisualStudio, JetBrains PyCharm, JetBrains IntelliJ IDEA, Android Studio.
 
+# Code Example
+# Java: 
+# public class HumanReadableTime {
+#  public static String makeReadable(int seconds) {
+#    // Do something
+#    int hh = (int)Math.floor(seconds / 3600.0);
+#    int mm = (int)Math.floor((seconds / 3600.0 - Math.floor(seconds / 3600.0)) * 60);
+#    int ss = seconds - (hh * 3600 + mm * 60);
 
-// Experience
-// University Project (Web application - movie store)
-// Technologies used for this project: JavaScript, Node.js, express, Stripe API, HTML, CSS, MySQL, ejs.
-// Link: https://github.com/Thommy-the-techguy/UniProject
+#    StringBuilder time = new StringBuilder();
+#    String[] hoursMinutesSeconds = new String[] {Integer.toString(hh),
+#            Integer.toString(mm), Integer.toString(ss)};
+#    for (String value : hoursMinutesSeconds) {
+#        if (value.length() == 1) {
+#            time.append("0").append(value).append(":");
+#        } else {
+#            time.append(value).append(":");
+#        }
+#    }
+#    time.replace(time.length() - 1, time.length(),"");
+#    return time.toString();
+#   }
+# }
+#
+# JavaScript:
+# function reverseWords(str) {
+#   // Go for it
+#   str = str.split(" ");
+#   let array = [];
+#   for (let word of str) {
+#        array.push(word.split("").reverse().toString().replaceAll(",", ""));
+#   }
+#  return(array.toString().replaceAll(",", " "));
+# }
 
-// Education
-// Secondary, higher incomplete education (3rd course) BNTU MINSK software development.
+# Experience
+# University Project (Web application - movie store)
+# Technologies used for this project: JavaScript, Node.js, express, Stripe API, HTML, CSS, MySQL, ejs.
+# Link: https://github.com/Thommy-the-techguy/UniProject
 
-// Enlgish level
-// EPAM english test level B2 (upper-intermidiate).
+# Education
+# Secondary, higher incomplete education (3rd course) BNTU MINSK software development.
+
+# Enlgish level
+# EPAM english test level B2 (upper-intermidiate).
 -------------------------------------------------------------------------------------------------------------------------------------------------------
